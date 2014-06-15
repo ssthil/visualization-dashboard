@@ -108,7 +108,7 @@ pre
 	z-index: 1;
 }
 .wrapper{padding:10px;}
-.header{background:#17bcb8;}
+.header{background:#206688;}
 #menu {background: #555;}
 .mm-list > li:hover{background: #333;}
 .title{font-size: 1.4em;}
@@ -123,4 +123,12 @@ padding: 4px;
 margin:0 0 15px 10px;
 }
 .highcharts-button{display:none;}
+.panel-default > .panel-heading h5{ font-weight:bold; font-size: 13px; }
+/***** pane heading 
+.panel-custom > .panel-heading{
+background: #e5e5e5;
+background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+}***/
 /* .highcharts-container svg text:last-child{display:none;} */
